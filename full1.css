@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin:0px;
+}
+.main{
+  width:100%;
+  height: 100vh;
+}
+.uppersection{
+  background-image:url("./full1.jpg");
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.img{
+  width:60px;
+  height:80px;
+  padding-bottom: 30px;
+}
+h1{
+  color:white;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+.midsection{
+  width:100%;
+  height:70%;
+  background-color: #464242;
+  display: flex;
+  flex-direction: column;
+
+}
+.midupper{
+  width:100%;
+height:35%;
+  display:flex;
+justify-content: center;
+align-items: center;
+padding-top:20px;
+
+}
+h2{
+  color:#80c5bc;
+  font-size: 35px;
+text-align:  center;
+font-family: 'Roboto', sans-serif;
+padding-top:10px;
+}
+.img1{
+  width:140px;
+  height:130px;
+  display: inline-block;
+
+}
+h4{
+  color:#80c5bc;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  transform:translate(-132px,95px);
+}
+.midlower{
+  width:100%;
+height:35%;
+  display:flex;
+justify-content: center;
+align-items: center;
+padding-top:20px;
+
+}
+.h4{
+  color:#80c5bc;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+   transform:translate(-132px,95px);
+}
+.lower{
+  width:100%;
+  height:800px;
+  background-color: #98cd98;
+
+
+}
+.h11{
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  padding-top: 10px;
+}
+.lowerp{
+  display: flex;
+  padding-top: 25px;
+}
+.firstlowerp{
+  display: flex;
+  width:60%;
+  transform: translateX(280px);
+
+}
+.p1{
+  flex-direction: column;
+}
+.stimg{
+  width:455px;
+  height:350px;
+}
+h3{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+p{
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+
+  padding-left: 15px;
+}
+.secondlowerp{
+  display: flex;
+  width:60%;
+  transform: translateX(280px);
+}
+ .p11{
+  flex-direction: column;
+padding-right: 15px;
+
+}
+.ndimg{
+  width:455px;
+  height:350px;
+margin-top: -5px;
+  order:1;
+}
